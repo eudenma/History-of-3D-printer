@@ -1,0 +1,85 @@
+#logo {
+    height: 70px;
+    margin-right: 50%;
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+        height: 400px;
+    }
+    #para {
+        border: 3px solid black;
+        margin-top: 5px;
+    }
+    .card {
+        text-align: justify;
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width:768px) {
+    .carousel-inner img {
+        height: 400px;
+    }
+    #para {
+        border: 3px solid black;
+        width: 40%;
+        padding: 20px; 
+    }
+    #carouselExampleIndicators {
+        width: 50%;
+    }
+    #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .card {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .carousel-inner img {
+        height: 400px;
+    }
+    #para {
+        border: 3px solid black;
+        width: 35%;
+        padding: 30px; 
+    }
+    #carouselExampleIndicators {
+        width: 60%;
+    }
+    #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .card {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-inner img {
+        height: 400px;
+    }
+    #para {
+        border: 3px solid black;
+        width: 35%;
+        padding: 20px; 
+    }
+    #carouselExampleIndicators {
+        width: 60%;
+    }
+    #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .card {
+        text-align: center;
+    }
+}
